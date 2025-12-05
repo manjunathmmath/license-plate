@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0d7b9cb-2950-4b09-8881-f39c9941f963" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tradebot/controller/PndDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoBot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_michaelgantman_MgntUtils_1_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_lambdaj_lambdaj_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_jvm_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zerodhatech_kiteconnect_kiteconnect_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bull_javamelody_javamelody_core_1_80_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bull_javamelody_javamelody_spring_boot_starter_1_80_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jrobin_jrobin_1_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20230227.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_sockjs_client_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tradebot/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/annotations/TrackExecutionTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/SchedulerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/KiteConnectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tradebot/controller/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/KiteInstruments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/MasterStockToTrack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/NseStockStrikeIntervals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/SubscriptionTokens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/KiteInstrumentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/MasterStockToTrackRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/NseStockStrikeIntervalsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/SubscriptionTokensRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/KiteInstrumentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/MasterStockToTrackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/NseStockStrikeIntervalsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/SubscriptionTokensService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/CommonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/RestHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/TelegramSendText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/TradeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/WebDriverUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/ZerodhaUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/application/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/application/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/kite-common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/dataTables.fixedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/dataTables.fixedHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/fixedHeader.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/fixedHeader.dataTables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Black-Marubozu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Marubozu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Piercing-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Three-Outside-Up-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bear-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bearish-engulfing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bearish-harami.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bull-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bullish-engulfing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bullish-harami-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/captain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-060.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-075.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-095.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-097.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-099.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-207.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-219.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-221.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-233.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-236.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-240.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-244.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-272.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-284.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-286.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-288.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-297.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-303.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-316.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-338.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-361.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-375.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-407.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-433.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-442.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-459.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-469.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-481.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-493.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-499.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-501.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-506.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-511.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-538.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-546.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-562.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-566.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/dark-cloud-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/doctor_strange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/doji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/downside-tasuki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/eng-1024x550.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/evening-star-chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/evening-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hammer-candlestick-pattern-nifty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hammer-candlestick-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hanging-man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hulk.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hulk1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/inverted-Hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ironman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/loki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mat-hold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/morning-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/on-neck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/png_bull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/rising-three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/rsi-morning-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/shooting-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/spinning-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sun-pharmaceutical-chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/thor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-black-crows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-falling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-inside-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-inside-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-outside-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tvc_f4f91f3e1468bf5efa1d263b51f299a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tvc_fb61d6455d7717ca2ba0d2bfa8f60ef6-1024x553.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tweezer-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tweezer-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/upside-tasuki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_configurationDetails.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_instrumentTable.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_settings.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indices/_subscriptionList.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indices/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nsefando/_subscriptionList.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nsefando/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subscription/_subscriptionList.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subscription/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/application/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/application/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/application/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/application/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/application/kite-common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/application/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/dataTables.fixedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/dataTables.fixedHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/fixedHeader.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/fixedHeader.dataTables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/fusioncharts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Black-Marubozu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Marubozu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Piercing-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Three-Outside-Up-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/banner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bear-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bearish-engulfing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bearish-harami.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bull-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bullish-engulfing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bullish-harami-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/captain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-060.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-075.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-095.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-097.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-099.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-207.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-219.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-221.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-233.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-236.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-240.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-244.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-272.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-284.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-286.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-288.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-297.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-303.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-316.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-338.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-361.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-375.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-407.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-433.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-442.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-459.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-469.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-481.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-493.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-499.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-501.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-506.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-511.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-538.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-546.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-562.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-566.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dark-cloud-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/doctor_strange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/doji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/downside-tasuki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/eng-1024x550.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/evening-star-chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/evening-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hammer-candlestick-pattern-nifty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hammer-candlestick-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hanging-man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hulk.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hulk1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/inverted-Hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ironman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/loki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mat-hold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/morning-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/on-neck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/png_bull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/rising-three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/rsi-morning-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shooting-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/spinning-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/sun-pharmaceutical-chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/thor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-black-crows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-falling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-inside-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-inside-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-outside-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tvc_f4f91f3e1468bf5efa1d263b51f299a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tvc_fb61d6455d7717ca2ba0d2bfa8f60ef6-1024x553.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tweezer-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tweezer-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/upside-tasuki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tradebot/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/annotations/TrackExecutionTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/SchedulerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/WebSocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tradebot/controller/ViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/KiteInstruments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/MasterStockToTrack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/NseStockStrikeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/SubscriptionTokens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/KiteInstrumentsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/MasterStockToTrackRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/NseStockStrikeIntervalsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/SubscriptionTokensRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/KiteInstrumentsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/MasterStockToTrackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/NseStockStrikeIntervalsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/SubscriptionTokensService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/CommonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/RestHttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/TelegramSendText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/TradeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/WebDriverUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/ZerodhaUtils.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="jsf" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/manjunathmmath/tradebot-ia.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DyQF3UnE8ibAFS1gjGcUJoOJ0d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\domain\vbo" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\service\num" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\repository\num" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\domain\num" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tradebot.service.num" />
+      <recent name="tradebot.repository.num" />
+      <recent name="tradebot.controller" />
+      <recent name="tradebot.domain.num" />
+      <recent name="tradebot.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\security" />
+      <recent name="C:\Users\manju\Projects\AutoBot\src\main\webapp\WEB-INF\views\subscription" />
+      <recent name="C:\Users\manju\Projects\AutoBot\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\manju\Projects\Trade-Bot-Ai\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AutoBot" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tradebot [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0d7b9cb-2950-4b09-8881-f39c9941f963" name="Default Changelist" comment="" />
+      <created>1661668738217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661668738217</updated>
+      <workItem from="1661668741297" duration="8507000" />
+      <workItem from="1661687758828" duration="950000" />
+      <workItem from="1661692709127" duration="2934000" />
+      <workItem from="1661697730418" duration="3171000" />
+      <workItem from="1661705185600" duration="595000" />
+      <workItem from="1661708017771" duration="910000" />
+      <workItem from="1661744107999" duration="611000" />
+      <workItem from="1661769983446" duration="9976000" />
+      <workItem from="1661792568793" duration="3156000" />
+      <workItem from="1661939692826" duration="706000" />
+      <workItem from="1662377133395" duration="124000" />
+      <workItem from="1667148973519" duration="628000" />
+      <workItem from="1676457577966" duration="1588000" />
+      <workItem from="1676524343457" duration="11987000" />
+      <workItem from="1676557971571" duration="657000" />
+      <workItem from="1676607789407" duration="1264000" />
+      <workItem from="1677145583086" duration="7478000" />
+      <workItem from="1677157547176" duration="2497000" />
+      <workItem from="1677214256680" duration="5075000" />
+      <workItem from="1677219946305" duration="6918000" />
+      <workItem from="1677310646644" duration="3669000" />
+      <workItem from="1677331932638" duration="3692000" />
+      <workItem from="1677335698044" duration="89000" />
+      <workItem from="1677559252209" duration="73000" />
+      <workItem from="1677568819983" duration="5785000" />
+      <workItem from="1677591718227" duration="7542000" />
+      <workItem from="1677603423503" duration="4248000" />
+      <workItem from="1677642179007" duration="20004000" />
+      <workItem from="1677730289838" duration="25587000" />
+      <workItem from="1677758671619" duration="1061000" />
+      <workItem from="1677768033909" duration="2139000" />
+      <workItem from="1677770272063" duration="45000" />
+      <workItem from="1677826111705" duration="7707000" />
+      <workItem from="1677840396394" duration="1693000" />
+      <workItem from="1677855823599" duration="1512000" />
+      <workItem from="1678271347483" duration="22000" />
+      <workItem from="1678274117650" duration="290000" />
+      <workItem from="1678274430094" duration="2866000" />
+      <workItem from="1678280640133" duration="2768000" />
+      <workItem from="1678683957663" duration="29000" />
+      <workItem from="1689611604350" duration="815000" />
+      <workItem from="1690308262730" duration="17000" />
+      <workItem from="1695984564195" duration="6879000" />
+      <workItem from="1697467763902" duration="12504000" />
+      <workItem from="1697518390381" duration="14266000" />
+      <workItem from="1697603809421" duration="622000" />
+      <workItem from="1697623200375" duration="5027000" />
+      <workItem from="1697642719415" duration="1275000" />
+      <workItem from="1698298485835" duration="2585000" />
+      <workItem from="1701791682204" duration="180000" />
+      <workItem from="1702569897256" duration="522000" />
+      <workItem from="1703227372724" duration="3555000" />
+      <workItem from="1703343656653" duration="4751000" />
+      <workItem from="1703436282285" duration="1665000" />
+      <workItem from="1703829064958" duration="13248000" />
+      <workItem from="1703859256140" duration="9475000" />
+      <workItem from="1703910906572" duration="4761000" />
+      <workItem from="1703922367989" duration="6660000" />
+      <workItem from="1703947927314" duration="2434000" />
+      <workItem from="1704008588219" duration="4400000" />
+      <workItem from="1704035348999" duration="3720000" />
+      <workItem from="1704091432168" duration="3583000" />
+      <workItem from="1704118698826" duration="6045000" />
+      <workItem from="1704166964786" duration="890000" />
+      <workItem from="1704169868749" duration="615000" />
+      <workItem from="1704611618828" duration="8398000" />
+      <workItem from="1704643448945" duration="3674000" />
+      <workItem from="1704685828028" duration="11336000" />
+      <workItem from="1704776553331" duration="19375000" />
+      <workItem from="1704860554155" duration="1054000" />
+      <workItem from="1704903153613" duration="4323000" />
+      <workItem from="1704952963938" duration="22938000" />
+      <workItem from="1705039211462" duration="8140000" />
+      <workItem from="1705059679263" duration="6505000" />
+      <workItem from="1705161876412" duration="662000" />
+      <workItem from="1705428281862" duration="114000" />
+      <workItem from="1705514900416" duration="4328000" />
+      <workItem from="1705548776360" duration="1879000" />
+      <workItem from="1705581785026" duration="9003000" />
+      <workItem from="1705598984181" duration="6025000" />
+      <workItem from="1705644154415" duration="3460000" />
+      <workItem from="1705662158887" duration="4608000" />
+      <workItem from="1705724212007" duration="1287000" />
+      <workItem from="1705731435351" duration="900000" />
+      <workItem from="1705760749630" duration="9993000" />
+      <workItem from="1705812254803" duration="12117000" />
+      <workItem from="1705851081244" duration="10477000" />
+      <workItem from="1705903892176" duration="16523000" />
+      <workItem from="1705938318042" duration="5587000" />
+      <workItem from="1705988868830" duration="6801000" />
+      <workItem from="1706008601064" duration="3290000" />
+      <workItem from="1706118855617" duration="364000" />
+      <workItem from="1706120025803" duration="552000" />
+      <workItem from="1706153967428" duration="574000" />
+      <workItem from="1706351884297" duration="1606000" />
+      <workItem from="1706375062950" duration="2444000" />
+      <workItem from="1706425463342" duration="2719000" />
+      <workItem from="1706428295085" duration="2325000" />
+      <workItem from="1706461255867" duration="2885000" />
+      <workItem from="1706502453001" duration="3389000" />
+      <workItem from="1706541702497" duration="8158000" />
+      <workItem from="1706628971222" duration="1078000" />
+      <workItem from="1706674350400" duration="759000" />
+      <workItem from="1706718544525" duration="7487000" />
+      <workItem from="1706848302358" duration="681000" />
+      <workItem from="1706934194409" duration="14823000" />
+      <workItem from="1707151220838" duration="3847000" />
+      <workItem from="1707368882346" duration="674000" />
+      <workItem from="1707498846483" duration="2480000" />
+      <workItem from="1707540370962" duration="6045000" />
+      <workItem from="1707626162530" duration="517000" />
+      <workItem from="1707627882239" duration="6473000" />
+      <workItem from="1707648482879" duration="4074000" />
+      <workItem from="1707661209202" duration="2777000" />
+      <workItem from="1707711297862" duration="10407000" />
+      <workItem from="1707893502132" duration="217000" />
+      <workItem from="1708015083182" duration="4496000" />
+      <workItem from="1708156664374" duration="9151000" />
+      <workItem from="1708187068487" duration="4366000" />
+      <workItem from="1708240070277" duration="18002000" />
+      <workItem from="1708272950253" duration="7168000" />
+      <workItem from="1708404230595" duration="2114000" />
+      <workItem from="1708445408669" duration="2348000" />
+      <workItem from="1708448730042" duration="1931000" />
+      <workItem from="1708488803616" duration="1688000" />
+      <workItem from="1708526384719" duration="3860000" />
+      <workItem from="1708578837543" duration="190000" />
+      <workItem from="1708619560527" duration="3593000" />
+      <workItem from="1708670501584" duration="523000" />
+      <workItem from="1708861870839" duration="1690000" />
+      <workItem from="1708864407383" duration="11161000" />
+      <workItem from="1708918129823" duration="3519000" />
+      <workItem from="1708964423077" duration="2172000" />
+      <workItem from="1709025047382" duration="505000" />
+      <workItem from="1709028823242" duration="9710000" />
+      <workItem from="1709094898506" duration="738000" />
+      <workItem from="1709096222051" duration="1937000" />
+      <workItem from="1709388453079" duration="8000" />
+      <workItem from="1709446206975" duration="2566000" />
+      <workItem from="1709696834519" duration="90000" />
+      <workItem from="1709727507803" duration="8776000" />
+      <workItem from="1709807781211" duration="1244000" />
+      <workItem from="1710482032255" duration="1057000" />
+      <workItem from="1711030729120" duration="3212000" />
+      <workItem from="1711037565987" duration="1767000" />
+      <workItem from="1711169224517" duration="782000" />
+      <workItem from="1711173617760" duration="7236000" />
+      <workItem from="1711283108758" duration="10214000" />
+      <workItem from="1711342407708" duration="18314000" />
+      <workItem from="1711383588456" duration="4152000" />
+      <workItem from="1711427952081" duration="2779000" />
+      <workItem from="1711514461339" duration="619000" />
+      <workItem from="1711527813373" duration="981000" />
+      <workItem from="1711644586578" duration="177000" />
+      <workItem from="1711780907239" duration="8072000" />
+      <workItem from="1711809142468" duration="4402000" />
+      <workItem from="1711903492443" duration="3417000" />
+      <workItem from="1711941376698" duration="1340000" />
+      <workItem from="1711948207286" duration="682000" />
+      <workItem from="1711978008198" duration="5628000" />
+      <workItem from="1712031268865" duration="913000" />
+      <workItem from="1712063999663" duration="3982000" />
+      <workItem from="1712117088600" duration="1365000" />
+      <workItem from="1712142092672" duration="16786000" />
+      <workItem from="1712379871685" duration="14085000" />
+      <workItem from="1712496667996" duration="6505000" />
+      <workItem from="1712684510256" duration="3697000" />
+      <workItem from="1712719951836" duration="2625000" />
+      <workItem from="1712756931637" duration="7689000" />
+      <workItem from="1712768484777" duration="8938000" />
+      <workItem from="1712809741097" duration="17606000" />
+      <workItem from="1712849470279" duration="9074000" />
+      <workItem from="1712894586965" duration="11897000" />
+      <workItem from="1712990467241" duration="4627000" />
+      <workItem from="1713001273379" duration="3261000" />
+      <workItem from="1713027428798" duration="2390000" />
+      <workItem from="1713077851664" duration="7764000" />
+      <workItem from="1713102363356" duration="3536000" />
+      <workItem from="1713112566298" duration="4143000" />
+      <workItem from="1713197706680" duration="1013000" />
+      <workItem from="1713239283254" duration="2883000" />
+      <workItem from="1713273656684" duration="6586000" />
+      <workItem from="1713364753848" duration="3249000" />
+      <workItem from="1713370001705" duration="7815000" />
+      <workItem from="1713413232386" duration="394000" />
+      <workItem from="1713457426552" duration="2188000" />
+      <workItem from="1713546435919" duration="3122000" />
+      <workItem from="1713593211521" duration="2945000" />
+      <workItem from="1713604686283" duration="7064000" />
+      <workItem from="1713620555668" duration="4835000" />
+      <workItem from="1713702431816" duration="1244000" />
+      <workItem from="1713761495590" duration="1549000" />
+      <workItem from="1713792776124" duration="2751000" />
+      <workItem from="1713802110825" duration="1241000" />
+      <workItem from="1713874609490" duration="2425000" />
+      <workItem from="1713969982076" duration="4700000" />
+      <workItem from="1714061160455" duration="3675000" />
+      <workItem from="1714196115172" duration="5779000" />
+      <workItem from="1714228523222" duration="4817000" />
+      <workItem from="1714288770780" duration="7127000" />
+      <workItem from="1714312496092" duration="8610000" />
+      <workItem from="1714448401065" duration="189000" />
+      <workItem from="1714453018661" duration="1471000" />
+      <workItem from="1714549166744" duration="9970000" />
+      <workItem from="1714622398878" duration="597000" />
+      <workItem from="1714723978489" duration="10130000" />
+      <workItem from="1714755508726" duration="155000" />
+      <workItem from="1714804199779" duration="9694000" />
+      <workItem from="1714830120432" duration="3958000" />
+      <workItem from="1714891704311" duration="7850000" />
+      <workItem from="1714918363155" duration="578000" />
+      <workItem from="1714928195109" duration="4565000" />
+      <workItem from="1714966930031" duration="3256000" />
+      <workItem from="1714975720026" duration="61000" />
+      <workItem from="1714976234891" duration="1254000" />
+      <workItem from="1714990974064" duration="232000" />
+      <workItem from="1714996786426" duration="505000" />
+      <workItem from="1715099453388" duration="3594000" />
+      <workItem from="1715167333082" duration="10104000" />
+      <workItem from="1715225727867" duration="680000" />
+      <workItem from="1715499311587" duration="1696000" />
+      <workItem from="1715522808255" duration="1303000" />
+      <workItem from="1715575710351" duration="1459000" />
+      <workItem from="1715595274860" duration="5664000" />
+      <workItem from="1715672367730" duration="2694000" />
+      <workItem from="1715686781591" duration="483000" />
+      <workItem from="1715776435399" duration="9962000" />
+      <workItem from="1715831184400" duration="455000" />
+      <workItem from="1715838463816" duration="13353000" />
+      <workItem from="1715876900974" duration="6120000" />
+      <workItem from="1715924899858" duration="596000" />
+      <workItem from="1715951149572" duration="6983000" />
+      <workItem from="1716009780859" duration="6123000" />
+      <workItem from="1716107588361" duration="1543000" />
+      <workItem from="1716180426239" duration="7490000" />
+      <workItem from="1716219357362" duration="1741000" />
+      <workItem from="1716304668883" duration="3811000" />
+      <workItem from="1716382159070" duration="310000" />
+      <workItem from="1716389737304" duration="4267000" />
+      <workItem from="1716439593844" duration="148000" />
+      <workItem from="1716453512214" duration="33000" />
+      <workItem from="1716456865070" duration="4783000" />
+      <workItem from="1716466053988" duration="3804000" />
+      <workItem from="1716794569600" duration="2468000" />
+      <workItem from="1716800209451" duration="100000" />
+      <workItem from="1716804570984" duration="1340000" />
+      <workItem from="1716826478118" duration="2104000" />
+      <workItem from="1716876285984" duration="4193000" />
+      <workItem from="1716905140835" duration="7473000" />
+      <workItem from="1716976837267" duration="4208000" />
+      <workItem from="1717042034761" duration="712000" />
+      <workItem from="1717043806167" duration="1216000" />
+      <workItem from="1717244037539" duration="105000" />
+      <workItem from="1717259989987" duration="3277000" />
+      <workItem from="1717400189654" duration="14288000" />
+      <workItem from="1717431460377" duration="2975000" />
+      <workItem from="1717472968262" duration="709000" />
+      <workItem from="1717474962176" duration="5115000" />
+      <workItem from="1717510277518" duration="1062000" />
+      <workItem from="1717558465939" duration="1228000" />
+      <workItem from="1717583940298" duration="12610000" />
+      <workItem from="1717602733557" duration="2377000" />
+      <workItem from="1717647494638" duration="5379000" />
+      <workItem from="1717755250117" duration="3198000" />
+      <workItem from="1718075205756" duration="6585000" />
+      <workItem from="1718163137854" duration="1090000" />
+      <workItem from="1718200067194" duration="4792000" />
+      <workItem from="1718211131953" duration="698000" />
+      <workItem from="1718248876134" duration="541000" />
+      <workItem from="1718255340467" duration="4122000" />
+      <workItem from="1718299787110" duration="486000" />
+      <workItem from="1718335384581" duration="746000" />
+      <workItem from="1718339763505" duration="1578000" />
+      <workItem from="1718342912703" duration="1085000" />
+      <workItem from="1718682201588" duration="221000" />
+      <workItem from="1718716109560" duration="699000" />
+      <workItem from="1718719313149" duration="4169000" />
+      <workItem from="1718727847017" duration="2642000" />
+      <workItem from="1718733807962" duration="224000" />
+      <workItem from="1718892072782" duration="2866000" />
+      <workItem from="1718899967079" duration="2571000" />
+      <workItem from="1718957790972" duration="1640000" />
+      <workItem from="1718971541805" duration="3249000" />
+      <workItem from="1719119390453" duration="6806000" />
+      <workItem from="1719162282549" duration="446000" />
+      <workItem from="1719204531206" duration="1807000" />
+      <workItem from="1719241825097" duration="632000" />
+      <workItem from="1719308526222" duration="10081000" />
+      <workItem from="1719328015605" duration="1052000" />
+      <workItem from="1719334025502" duration="2683000" />
+      <workItem from="1719378550470" duration="7897000" />
+      <workItem from="1719421093495" duration="906000" />
+      <workItem from="1719464181607" duration="1997000" />
+      <workItem from="1719638933070" duration="7214000" />
+      <workItem from="1719752144146" duration="621000" />
+      <workItem from="1719813469094" duration="4553000" />
+      <workItem from="1719845358768" duration="1567000" />
+      <workItem from="1719851672229" duration="7745000" />
+      <workItem from="1719890721631" duration="1775000" />
+      <workItem from="1719931798804" duration="2513000" />
+      <workItem from="1719977368400" duration="672000" />
+      <workItem from="1720013904308" duration="217000" />
+      <workItem from="1720110992295" duration="644000" />
+      <workItem from="1720356432080" duration="8691000" />
+      <workItem from="1720409906544" duration="762000" />
+      <workItem from="1720456587437" duration="3901000" />
+      <workItem from="1720496616631" duration="75000" />
+      <workItem from="1720769476665" duration="2382000" />
+      <workItem from="1720847476306" duration="9488000" />
+      <workItem from="1720954892396" duration="3277000" />
+      <workItem from="1720974859246" duration="1804000" />
+      <workItem from="1721018661635" duration="4085000" />
+      <workItem from="1721060998299" duration="4068000" />
+      <workItem from="1721103722716" duration="7736000" />
+      <workItem from="1721142771272" duration="620000" />
+      <workItem from="1721192067135" duration="3698000" />
+      <workItem from="1721234975293" duration="1360000" />
+      <workItem from="1721317884070" duration="4227000" />
+      <workItem from="1721446781027" duration="12999000" />
+      <workItem from="1721475609110" duration="3114000" />
+      <workItem from="1721656699526" duration="644000" />
+      <workItem from="1721661866586" duration="906000" />
+      <workItem from="1721667276871" duration="3141000" />
+      <workItem from="1721907605767" duration="7171000" />
+      <workItem from="1721925965879" duration="6467000" />
+      <workItem from="1721975773460" duration="11637000" />
+      <workItem from="1721996092889" duration="2907000" />
+      <workItem from="1722153552926" duration="1476000" />
+      <workItem from="1722156984952" duration="607000" />
+      <workItem from="1722223049257" duration="1874000" />
+      <workItem from="1722320345561" duration="633000" />
+      <workItem from="1722346103984" duration="6058000" />
+      <workItem from="1722357608596" duration="7460000" />
+      <workItem from="1722399575847" duration="1571000" />
+      <workItem from="1722488590869" duration="1707000" />
+      <workItem from="1722523447628" duration="5262000" />
+      <workItem from="1722570382179" duration="2323000" />
+      <workItem from="1722659176679" duration="8706000" />
+      <workItem from="1722676846669" duration="5789000" />
+      <workItem from="1722768744095" duration="3486000" />
+      <workItem from="1722784586015" duration="5347000" />
+      <workItem from="1722827961708" duration="4834000" />
+      <workItem from="1722874581388" duration="3507000" />
+      <workItem from="1722916274501" duration="1580000" />
+      <workItem from="1722950545515" duration="3601000" />
+      <workItem from="1723467803039" duration="2087000" />
+      <workItem from="1723478754419" duration="1372000" />
+      <workItem from="1723526102699" duration="3012000" />
+      <workItem from="1723567015391" duration="965000" />
+      <workItem from="1723605632260" duration="2814000" />
+      <workItem from="1723644450842" duration="1322000" />
+      <workItem from="1723717476500" duration="676000" />
+      <workItem from="1723787133576" duration="6533000" />
+      <workItem from="1723820644402" duration="3026000" />
+      <workItem from="1723869728955" duration="2630000" />
+      <workItem from="1723996383781" duration="1498000" />
+      <workItem from="1724082960900" duration="2671000" />
+      <workItem from="1724165599217" duration="7000" />
+      <workItem from="1724169157279" duration="7109000" />
+      <workItem from="1724235800539" duration="339000" />
+      <workItem from="1724245704949" duration="643000" />
+      <workItem from="1724260843954" duration="6334000" />
+      <workItem from="1724299861443" duration="635000" />
+      <workItem from="1724322092392" duration="882000" />
+      <workItem from="1724327720613" duration="2055000" />
+      <workItem from="1724398985894" duration="2363000" />
+      <workItem from="1724422538609" duration="3883000" />
+      <workItem from="1724569918006" duration="3227000" />
+      <workItem from="1724590902490" duration="7612000" />
+      <workItem from="1724643406346" duration="1446000" />
+      <workItem from="1724672129840" duration="3574000" />
+      <workItem from="1724733044042" duration="9297000" />
+      <workItem from="1724774933144" duration="5256000" />
+      <workItem from="1724829967461" duration="8740000" />
+      <workItem from="1724852460570" duration="1580000" />
+      <workItem from="1724914390069" duration="2598000" />
+      <workItem from="1725001903734" duration="5030000" />
+      <workItem from="1725543856717" duration="4413000" />
+      <workItem from="1725684504118" duration="6019000" />
+      <workItem from="1725888400905" duration="6110000" />
+      <workItem from="1725942750157" duration="9138000" />
+      <workItem from="1726063952180" duration="7801000" />
+      <workItem from="1726153906787" duration="7083000" />
+      <workItem from="1726287711642" duration="2769000" />
+      <workItem from="1726418287574" duration="4325000" />
+      <workItem from="1726464177500" duration="3215000" />
+      <workItem from="1726497985956" duration="2053000" />
+      <workItem from="1726582608846" duration="130000" />
+      <workItem from="1726583817102" duration="1531000" />
+      <workItem from="1726654938533" duration="2255000" />
+      <workItem from="1726669108305" duration="3834000" />
+      <workItem from="1726678449861" duration="1132000" />
+      <workItem from="1726715419017" duration="1202000" />
+      <workItem from="1726763700880" duration="1037000" />
+      <workItem from="1726852092657" duration="2463000" />
+      <workItem from="1727013344956" duration="6796000" />
+      <workItem from="1727102336382" duration="4367000" />
+      <workItem from="1727281444103" duration="1889000" />
+      <workItem from="1727366191626" duration="1410000" />
+      <workItem from="1727502349615" duration="646000" />
+      <workItem from="1727799945346" duration="6329000" />
+      <workItem from="1727846438888" duration="7750000" />
+      <workItem from="1728112699257" duration="4217000" />
+      <workItem from="1728132849930" duration="2904000" />
+      <workItem from="1728137040385" duration="1011000" />
+      <workItem from="1728837793165" duration="5095000" />
+      <workItem from="1728888800788" duration="2726000" />
+      <workItem from="1728918999053" duration="369000" />
+      <workItem from="1728923952311" duration="1638000" />
+      <workItem from="1729088920524" duration="3674000" />
+      <workItem from="1729340880152" duration="1922000" />
+      <workItem from="1729345590010" duration="631000" />
+      <workItem from="1729354995712" duration="9429000" />
+      <workItem from="1729437329557" duration="766000" />
+      <workItem from="1729440625710" duration="9198000" />
+      <workItem from="1729481094333" duration="6107000" />
+      <workItem from="1729528794743" duration="2829000" />
+      <workItem from="1729572847518" duration="6223000" />
+      <workItem from="1729788034173" duration="740000" />
+      <workItem from="1729827263766" duration="999000" />
+      <workItem from="1729863361319" duration="6024000" />
+      <workItem from="1729921742492" duration="4617000" />
+      <workItem from="1730136251711" duration="2029000" />
+      <workItem from="1730391874654" duration="3551000" />
+      <workItem from="1730523447643" duration="23355000" />
+      <workItem from="1730551019221" duration="6550000" />
+      <workItem from="1730562198007" duration="9276000" />
+      <workItem from="1730615038518" duration="9880000" />
+      <workItem from="1730636076761" duration="9351000" />
+      <workItem from="1730906673988" duration="5428000" />
+      <workItem from="1731068448531" duration="2277000" />
+      <workItem from="1731085186181" duration="1930000" />
+      <workItem from="1731127699533" duration="2973000" />
+      <workItem from="1731139820475" duration="2110000" />
+      <workItem from="1731155470813" duration="2871000" />
+      <workItem from="1731170107097" duration="4780000" />
+      <workItem from="1731250481675" duration="971000" />
+      <workItem from="1731256433618" duration="657000" />
+      <workItem from="1731335243382" duration="18000" />
+      <workItem from="1731421693000" duration="3282000" />
+      <workItem from="1731429051249" duration="6484000" />
+      <workItem from="1731467874056" duration="317000" />
+      <workItem from="1731488699922" duration="604000" />
+      <workItem from="1731498480814" duration="1590000" />
+      <workItem from="1731513793285" duration="5694000" />
+      <workItem from="1731642307497" duration="12525000" />
+      <workItem from="1731684174513" duration="642000" />
+      <workItem from="1731687813675" duration="3734000" />
+      <workItem from="1731821754254" duration="2196000" />
+      <workItem from="1731859481762" duration="6392000" />
+      <workItem from="1731947233504" duration="7000" />
+      <workItem from="1731949645180" duration="1221000" />
+      <workItem from="1732012427536" duration="10257000" />
+      <workItem from="1732034070671" duration="4019000" />
+      <workItem from="1732535091959" duration="80000" />
+      <workItem from="1732538363530" duration="5044000" />
+      <workItem from="1732985426160" duration="2547000" />
+      <workItem from="1733025544496" duration="15867000" />
+      <workItem from="1733313706912" duration="2552000" />
+      <workItem from="1733483089436" duration="7108000" />
+      <workItem from="1733550707135" duration="4781000" />
+      <workItem from="1733643165344" duration="1746000" />
+      <workItem from="1733673295882" duration="10000" />
+      <workItem from="1733761779399" duration="2805000" />
+      <workItem from="1733840959701" duration="3129000" />
+      <workItem from="1734010925438" duration="4701000" />
+      <workItem from="1734095784833" duration="1638000" />
+      <workItem from="1734099906708" duration="1925000" />
+      <workItem from="1734187924719" duration="5384000" />
+      <workItem from="1734245317087" duration="2577000" />
+      <workItem from="1734326749061" duration="2838000" />
+      <workItem from="1734352389667" duration="5594000" />
+      <workItem from="1734369033327" duration="3606000" />
+      <workItem from="1734436540936" duration="3557000" />
+      <workItem from="1734531065448" duration="2071000" />
+      <workItem from="1734960554634" duration="1896000" />
+      <workItem from="1735479115679" duration="2505000" />
+      <workItem from="1735484083898" duration="6617000" />
+      <workItem from="1735747022916" duration="652000" />
+      <workItem from="1735789943653" duration="1212000" />
+      <workItem from="1735897468879" duration="3102000" />
+      <workItem from="1735921958753" duration="2657000" />
+      <workItem from="1735964317508" duration="12563000" />
+      <workItem from="1736003652356" duration="687000" />
+      <workItem from="1736486937121" duration="7644000" />
+      <workItem from="1736681815844" duration="5455000" />
+      <workItem from="1736956570650" duration="8670000" />
+      <workItem from="1737009658528" duration="645000" />
+      <workItem from="1737038720334" duration="42000" />
+      <workItem from="1737125856776" duration="849000" />
+      <workItem from="1737181429608" duration="1613000" />
+      <workItem from="1737268523408" duration="2392000" />
+      <workItem from="1737383931357" duration="1539000" />
+      <workItem from="1737568396357" duration="807000" />
+      <workItem from="1737995752057" duration="3148000" />
+      <workItem from="1738073262787" duration="10609000" />
+      <workItem from="1738126702473" duration="7619000" />
+      <workItem from="1738167926248" duration="2806000" />
+      <workItem from="1738341994541" duration="10786000" />
+      <workItem from="1738383154837" duration="9480000" />
+      <workItem from="1738425012810" duration="7628000" />
+      <workItem from="1738478624661" duration="8523000" />
+      <workItem from="1738498857945" duration="2052000" />
+      <workItem from="1738505104138" duration="659000" />
+      <workItem from="1738513107917" duration="2146000" />
+      <workItem from="1738592347039" duration="1322000" />
+      <workItem from="1738647031588" duration="2307000" />
+      <workItem from="1738680870377" duration="5183000" />
+      <workItem from="1738727000237" duration="1253000" />
+      <workItem from="1738749587622" duration="959000" />
+      <workItem from="1738753527977" duration="609000" />
+      <workItem from="1738824379508" duration="14282000" />
+      <workItem from="1739012798606" duration="680000" />
+      <workItem from="1739021047656" duration="4716000" />
+      <workItem from="1739097378794" duration="2934000" />
+      <workItem from="1739112219369" duration="7815000" />
+      <workItem from="1739164412450" duration="6320000" />
+      <workItem from="1739189602043" duration="9177000" />
+      <workItem from="1739207113189" duration="1782000" />
+      <workItem from="1739464515473" duration="668000" />
+      <workItem from="1739624699423" duration="3147000" />
+      <workItem from="1739719390020" duration="1236000" />
+      <workItem from="1740202369712" duration="4801000" />
+      <workItem from="1740293247077" duration="6087000" />
+      <workItem from="1740303747968" duration="3343000" />
+      <workItem from="1740312915249" duration="694000" />
+      <workItem from="1740320748961" duration="2903000" />
+      <workItem from="1740413605732" duration="1299000" />
+      <workItem from="1740500473438" duration="3981000" />
+      <workItem from="1740540852115" duration="3987000" />
+      <workItem from="1740570950990" duration="978000" />
+      <workItem from="1740586240038" duration="652000" />
+      <workItem from="1740803671412" duration="5005000" />
+      <workItem from="1740933377739" duration="1117000" />
+      <workItem from="1741263436515" duration="3237000" />
+      <workItem from="1741275215502" duration="2239000" />
+      <workItem from="1741353873188" duration="1379000" />
+      <workItem from="1741408846201" duration="4100000" />
+      <workItem from="1741528099009" duration="3314000" />
+      <workItem from="1741612084430" duration="7232000" />
+      <workItem from="1741664685408" duration="318000" />
+      <workItem from="1741710333407" duration="1206000" />
+      <workItem from="1741788967581" duration="1255000" />
+      <workItem from="1741795570879" duration="7063000" />
+      <workItem from="1741872453287" duration="1730000" />
+      <workItem from="1741925757793" duration="6592000" />
+      <workItem from="1741940498620" duration="3457000" />
+      <workItem from="1741955005163" duration="627000" />
+      <workItem from="1741968573373" duration="616000" />
+      <workItem from="1742013724820" duration="3636000" />
+      <workItem from="1742055927045" duration="634000" />
+      <workItem from="1742133883392" duration="2323000" />
+      <workItem from="1742142214692" duration="2270000" />
+      <workItem from="1742182371777" duration="613000" />
+      <workItem from="1742228908980" duration="1040000" />
+      <workItem from="1742536357676" duration="1272000" />
+      <workItem from="1742568787116" duration="1311000" />
+      <workItem from="1742573775710" duration="608000" />
+      <workItem from="1742620438548" duration="3174000" />
+      <workItem from="1742909040366" duration="1306000" />
+      <workItem from="1742960487545" duration="1264000" />
+      <workItem from="1742992280656" duration="4221000" />
+      <workItem from="1743005732347" duration="3383000" />
+      <workItem from="1743085350352" duration="788000" />
+      <workItem from="1743091828227" duration="637000" />
+      <workItem from="1743222125108" duration="1414000" />
+      <workItem from="1743263116352" duration="705000" />
+      <workItem from="1743346372279" duration="7983000" />
+      <workItem from="1743436963341" duration="1081000" />
+      <workItem from="1743502725004" duration="1342000" />
+      <workItem from="1743526069676" duration="718000" />
+      <workItem from="1743589704032" duration="1425000" />
+      <workItem from="1743672775244" duration="23684000" />
+      <workItem from="1743748058332" duration="951000" />
+      <workItem from="1743769319477" duration="611000" />
+      <workItem from="1743777846223" duration="1884000" />
+      <workItem from="1743830640795" duration="1821000" />
+      <workItem from="1743864731215" duration="3020000" />
+      <workItem from="1743951116463" duration="2018000" />
+      <workItem from="1743956995790" duration="3481000" />
+      <workItem from="1744020274851" duration="788000" />
+      <workItem from="1744039156603" duration="3318000" />
+      <workItem from="1744112610260" duration="1427000" />
+      <workItem from="1744192170883" duration="1189000" />
+      <workItem from="1744465883402" duration="2447000" />
+      <workItem from="1744475772667" duration="1746000" />
+      <workItem from="1744633047449" duration="6786000" />
+      <workItem from="1744798140456" duration="1060000" />
+      <workItem from="1744884700647" duration="1831000" />
+      <workItem from="1744910226377" duration="3118000" />
+      <workItem from="1745046838774" duration="1872000" />
+      <workItem from="1745074058618" duration="3390000" />
+      <workItem from="1745159068903" duration="2733000" />
+      <workItem from="1745165482515" duration="1239000" />
+      <workItem from="1745254634213" duration="2058000" />
+      <workItem from="1745300320520" duration="2242000" />
+      <workItem from="1745336574296" duration="1488000" />
+      <workItem from="1745418789858" duration="655000" />
+      <workItem from="1745490473117" duration="1340000" />
+      <workItem from="1745559632015" duration="3105000" />
+      <workItem from="1745575646148" duration="4727000" />
+      <workItem from="1745739970945" duration="975000" />
+      <workItem from="1745760762683" duration="2391000" />
+      <workItem from="1745767807557" duration="1054000" />
+      <workItem from="1745774319071" duration="1461000" />
+      <workItem from="1745850188775" duration="2709000" />
+      <workItem from="1745855638541" duration="3863000" />
+      <workItem from="1745942980614" duration="3022000" />
+      <workItem from="1746031534653" duration="884000" />
+      <workItem from="1746073772241" duration="612000" />
+      <workItem from="1746108851887" duration="1629000" />
+      <workItem from="1746121241914" duration="1840000" />
+      <workItem from="1746248927035" duration="40000" />
+      <workItem from="1746251186282" duration="8890000" />
+      <workItem from="1746262790448" duration="2305000" />
+      <workItem from="1746285280563" duration="1116000" />
+      <workItem from="1746339715384" duration="3591000" />
+      <workItem from="1746347551604" duration="1335000" />
+      <workItem from="1746350351890" duration="958000" />
+      <workItem from="1746369413240" duration="2898000" />
+      <workItem from="1746378191514" duration="671000" />
+      <workItem from="1746538193823" duration="1073000" />
+      <workItem from="1746717709140" duration="796000" />
+      <workItem from="1746797465125" duration="1779000" />
+      <workItem from="1746807055953" duration="2360000" />
+      <workItem from="1746970634127" duration="2841000" />
+      <workItem from="1746978680477" duration="597000" />
+      <workItem from="1747458372357" duration="6234000" />
+      <workItem from="1747549216268" duration="6595000" />
+      <workItem from="1747590610479" duration="695000" />
+      <workItem from="1747928682517" duration="2455000" />
+      <workItem from="1748062581068" duration="182000" />
+      <workItem from="1748064816322" duration="6709000" />
+      <workItem from="1748192776536" duration="784000" />
+      <workItem from="1748278938660" duration="1205000" />
+      <workItem from="1748280225790" duration="1421000" />
+      <workItem from="1748530893060" duration="2093000" />
+      <workItem from="1748538568075" duration="1917000" />
+      <workItem from="1748667332387" duration="9681000" />
+      <workItem from="1748793043959" duration="2261000" />
+      <workItem from="1748865430139" duration="2251000" />
+      <workItem from="1748950901771" duration="1953000" />
+      <workItem from="1748958477214" duration="3160000" />
+      <workItem from="1748967679039" duration="849000" />
+      <workItem from="1749147554106" duration="1944000" />
+      <workItem from="1749213387628" duration="610000" />
+      <workItem from="1749272321460" duration="8929000" />
+      <workItem from="1749833425154" duration="714000" />
+      <workItem from="1749967792880" duration="5100000" />
+      <workItem from="1750093021910" duration="2982000" />
+      <workItem from="1750264523677" duration="3202000" />
+      <workItem from="1750758130562" duration="953000" />
+      <workItem from="1750780074601" duration="6864000" />
+      <workItem from="1750851644470" duration="7594000" />
+      <workItem from="1750865488222" duration="717000" />
+      <workItem from="1750956081505" duration="2656000" />
+      <workItem from="1751034895202" duration="987000" />
+      <workItem from="1751277340948" duration="657000" />
+      <workItem from="1751283118674" duration="3504000" />
+      <workItem from="1751340266093" duration="1977000" />
+      <workItem from="1751386731207" duration="12258000" />
+      <workItem from="1751425636541" duration="5463000" />
+      <workItem from="1751450614849" duration="1399000" />
+      <workItem from="1751470867468" duration="683000" />
+      <workItem from="1751560643800" duration="2136000" />
+      <workItem from="1751907797080" duration="795000" />
+      <workItem from="1751944293150" duration="477000" />
+      <workItem from="1751945717494" duration="1234000" />
+      <workItem from="1751993930742" duration="1248000" />
+      <workItem from="1752142824418" duration="1531000" />
+      <workItem from="1752153794891" duration="3852000" />
+      <workItem from="1752162746769" duration="4243000" />
+      <workItem from="1752391741137" duration="600000" />
+      <workItem from="1752486111914" duration="4241000" />
+      <workItem from="1752501480579" duration="953000" />
+      <workItem from="1752508740969" duration="1711000" />
+      <workItem from="1752769642179" duration="3000" />
+      <workItem from="1752904826203" duration="5416000" />
+      <workItem from="1753030692322" duration="1918000" />
+      <workItem from="1753205238694" duration="615000" />
+      <workItem from="1753288547885" duration="1910000" />
+      <workItem from="1753597806962" duration="4089000" />
+      <workItem from="1753983087355" duration="418000" />
+      <workItem from="1754140228273" duration="4539000" />
+      <workItem from="1754151577739" duration="1961000" />
+      <workItem from="1754204800726" duration="3849000" />
+      <workItem from="1754211330254" duration="8550000" />
+      <workItem from="1754228662706" duration="2927000" />
+      <workItem from="1754841746293" duration="820000" />
+      <workItem from="1755102389541" duration="8210000" />
+      <workItem from="1755238222266" duration="2278000" />
+      <workItem from="1755256467615" duration="3655000" />
+      <workItem from="1755277307094" duration="3682000" />
+      <workItem from="1755713002027" duration="804000" />
+      <workItem from="1755955430699" duration="609000" />
+      <workItem from="1755966881004" duration="3108000" />
+      <workItem from="1756015897160" duration="1144000" />
+      <workItem from="1756227855004" duration="1456000" />
+      <workItem from="1756288836009" duration="899000" />
+      <workItem from="1756306517661" duration="601000" />
+      <workItem from="1756537186659" duration="706000" />
+      <workItem from="1756626683773" duration="1212000" />
+      <workItem from="1756833047784" duration="1123000" />
+      <workItem from="1756915478840" duration="1288000" />
+      <workItem from="1756997866412" duration="608000" />
+      <workItem from="1757088856028" duration="740000" />
+      <workItem from="1757137413297" duration="621000" />
+      <workItem from="1757242164890" duration="589000" />
+      <workItem from="1757308733948" duration="680000" />
+      <workItem from="1757348421805" duration="1203000" />
+      <workItem from="1757739188428" duration="11094000" />
+      <workItem from="1758217197909" duration="295000" />
+      <workItem from="1758217840935" duration="2269000" />
+      <workItem from="1758252014669" duration="4000000" />
+      <workItem from="1758276269475" duration="3528000" />
+      <workItem from="1758296174374" duration="10662000" />
+      <workItem from="1758341861786" duration="14096000" />
+      <workItem from="1758376936344" duration="3530000" />
+      <workItem from="1758384382737" duration="1081000" />
+      <workItem from="1758385494971" duration="152000" />
+      <workItem from="1758385668066" duration="188000" />
+      <workItem from="1758385863839" duration="642000" />
+      <workItem from="1758387543456" duration="2552000" />
+      <workItem from="1758511869660" duration="1460000" />
+      <workItem from="1758515518202" duration="10206000" />
+      <workItem from="1759054743675" duration="43000" />
+      <workItem from="1759201816606" duration="1634000" />
+      <workItem from="1759417175165" duration="3312000" />
+      <workItem from="1759425866746" duration="7217000" />
+      <workItem from="1759462804071" duration="2137000" />
+      <workItem from="1760164916345" duration="6260000" />
+      <workItem from="1760193051351" duration="3169000" />
+      <workItem from="1760199244308" duration="8134000" />
+      <workItem from="1760263460331" duration="5687000" />
+      <workItem from="1760281350883" duration="9826000" />
+      <workItem from="1760329632259" duration="1853000" />
+      <workItem from="1760637436909" duration="45000" />
+      <workItem from="1764829574976" duration="15742000" />
+      <workItem from="1764912866000" duration="11027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/manju/Projects/Trade-Bot-Ai/src/main/webapp/WEB-INF/views/expiryDatesAnalysis" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/manju/Projects/Trade-Bot-Ai/src/main/webapp/WEB-INF/views" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/manju/Projects/Trade-Bot-Ai/src/main/webapp/WEB-INF" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/manju/Projects/Trade-Bot-Ai/src/main/java/tradebot" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1764915009890">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764915009890" />
+    <state x="178" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1764845378799">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="178" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764845378799" />
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1764924053380">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053380" />
+    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1764847463526" />
+    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1764924053379">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053379" />
+    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1764847463525" />
+    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1764924053378">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053378" />
+    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1764847463524" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1764924053379">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053379" />
+    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1764847463525" />
+  </component>
+</project>
