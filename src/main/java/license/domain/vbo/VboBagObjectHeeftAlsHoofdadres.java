@@ -1,0 +1,40 @@
+package license.domain.vbo;
+
+import javax.persistence.*;
+
+@Entity
+public class VboBagObjectHeeftAlsHoofdadres {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "vbo_bag_object_heeftAlsHoofdadres_seq")
+    @SequenceGenerator(name = "vbo_bag_object_heeftAlsHoofdadres_seq", sequenceName = "vbo_bag_object_heeftAlsHoofdadres_seq")
+    private Integer id;
+
+    private String bagObject;
+
+    private String NummeraanduidingRef;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getBagObject() {
+        return bagObject;
+    }
+
+    public void setBagObject(String bagObject) {
+        this.bagObject = bagObject;
+    }
+
+    public String getNummeraanduidingRef() {
+        return NummeraanduidingRef;
+    }
+
+    public void setNummeraanduidingRef(String nummeraanduidingRef) {
+        NummeraanduidingRef = nummeraanduidingRef;
+    }
+}

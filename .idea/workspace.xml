@@ -14,800 +14,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d7b9cb-2950-4b09-8881-f39c9941f963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tradebot/controller/PndDashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AutoBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_michaelgantman_MgntUtils_1_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_lambdaj_lambdaj_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_4_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_jvm_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zerodhatech_kiteconnect_kiteconnect_3_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bull_javamelody_javamelody_core_1_80_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bull_javamelody_javamelody_spring_boot_starter_1_80_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_71.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jrobin_jrobin_1_5_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20230227.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_sockjs_client_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tradebot/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/annotations/TrackExecutionTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/SchedulerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/WebSocketConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/DashboardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/KiteConnectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tradebot/controller/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/KiteInstruments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/MasterStockToTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/NseStockStrikeIntervals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/SubscriptionTokens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/KiteInstrumentsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/MasterStockToTrackRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/NseStockStrikeIntervalsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/SubscriptionTokensRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/KiteInstrumentsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/MasterStockToTrackService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/NseStockStrikeIntervalsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/SubscriptionTokensService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/CommonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/RestHttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/TelegramSendText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/TradeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/WebDriverUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/ZerodhaUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/config/SpringSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/config/SpringSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/NumDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/controller/NumDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/PndDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/controller/PndDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/controller/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/CustomConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/CustomConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectDocumentdatum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectDocumentdatum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectDocumentnummer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectDocumentnummer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectGeconstateerd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectGeconstateerd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectHuisletter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectHuisletter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectHuisnummer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectHuisnummer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectLigtAan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectLigtAan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectPostcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectPostcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectTypeAdresseerbaarObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectTypeAdresseerbaarObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/num/NumBagObjectVoorkomen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/num/NumBagObjectVoorkomen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectDocumentdatum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectDocumentdatum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectDocumentnummer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectDocumentnummer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectGeconstateerd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectGeconstateerd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectGeometrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectGeometrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectOorspronkelijkBouwjaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectOorspronkelijkBouwjaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/pnd/PndBagObjectVoorkomen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectVoorkomen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectDocumentdatum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectDocumentdatum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectDocumentnummer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectDocumentnummer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectGeconstateerd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectGeconstateerd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectGeometrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectGeometrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/pnd/PndBagObjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo/PndBagObjectVoorkomen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/domain/vbo/VboBagObjectVoorkomen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/CustomConfigurationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/CustomConfigurationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectDocumentdatumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectDocumentdatumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectDocumentnummerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectDocumentnummerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectGeconstateerdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectGeconstateerdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectHuisletterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectHuisletterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectHuisnummerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectHuisnummerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectLigtAanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectLigtAanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectPostcodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectPostcodeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectStatusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectStatusRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectTypeAdresseerbaarObjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectTypeAdresseerbaarObjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/num/NumBagObjectVoorkomenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/num/NumBagObjectVoorkomenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectDocumentdatumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectDocumentdatumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectDocumentnummerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectDocumentnummerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectGeconstateerdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectGeconstateerdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectGeometrieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectGeometrieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectOorspronkelijkBouwjaarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectOorspronkelijkBouwjaarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectStatusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectStatusRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/repository/pnd/PndBagObjectVoorkomenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/repository/pnd/PndBagObjectVoorkomenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/CustomConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/CustomConfigurationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectDocumentdatumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectDocumentdatumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectDocumentnummerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectDocumentnummerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectGeconstateerdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectGeconstateerdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectHuisletterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectHuisletterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectHuisnummerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectHuisnummerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectLigtAanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectLigtAanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectPostcodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectPostcodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectStatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectTypeAdresseerbaarObjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectTypeAdresseerbaarObjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/num/NumBagObjectVoorkomenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/num/NumBagObjectVoorkomenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectDocumentdatumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectDocumentdatumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectDocumentnummerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectDocumentnummerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectGeconstateerdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectGeconstateerdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectGeometrieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectGeometrieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectOorspronkelijkBouwjaarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectOorspronkelijkBouwjaarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectStatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/service/pnd/PndBagObjectVoorkomenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/service/pnd/PndBagObjectVoorkomenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tradebot/utils/BeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/license/utils/BeanUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/application/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/application/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/kite-common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application/websocket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/dataTables.fixedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/dataTables.fixedHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/fixedHeader.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/datatables/fixedHeader.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Black-Marubozu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Marubozu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Piercing-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Three-Outside-Up-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bear-head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bearish-engulfing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bearish-harami.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bull-head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bullish-engulfing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bullish-harami-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/captain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-037.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-047.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-050.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-062.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-081.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-083.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-085.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-087.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-091.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-095.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-099.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-103.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-108.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-116.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-120.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-122.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-124.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-126.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-130.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-132.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-134.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-136.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-140.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-144.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-146.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-148.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-154.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-156.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-162.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-164.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-168.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-172.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-176.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-178.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-189.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-191.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-198.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-203.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-205.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-207.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-217.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-219.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-221.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-227.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-229.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-231.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-233.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-236.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-238.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-240.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-242.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-244.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-248.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-258.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-260.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-262.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-264.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-266.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-270.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-274.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-278.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-282.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-284.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-286.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-288.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-290.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-295.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-297.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-299.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-301.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-303.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-308.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-310.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-314.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-316.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-325.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-331.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-336.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-338.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-344.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-347.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-349.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-353.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-357.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-359.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-361.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-364.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-371.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-375.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-383.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-385.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-387.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-390.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-394.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-398.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-402.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-407.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-410.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-412.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-414.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-418.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-426.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-433.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-437.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-439.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-442.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-444.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-446.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-451.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-454.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-457.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-459.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-461.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-463.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-467.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-469.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-471.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-473.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-481.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-485.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-489.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-493.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-499.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-501.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-506.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-517.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-519.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-528.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-538.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-546.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-555.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-562.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/charts/image-566.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/dark-cloud-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/doctor_strange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/doji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/downside-tasuki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/eng-1024x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/evening-star-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/evening-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hammer-candlestick-pattern-nifty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hammer-candlestick-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hanging-man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hulk.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hulk1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/inverted-Hammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ironman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/loki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mat-hold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/morning-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/on-neck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/png_bull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/rising-three.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/rsi-morning-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/shooting-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/spinning-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sun-pharmaceutical-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/thor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-black-crows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-falling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-inside-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-inside-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-outside-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/three-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tvc_f4f91f3e1468bf5efa1d263b51f299a7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tvc_fb61d6455d7717ca2ba0d2bfa8f60ef6-1024x553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tweezer-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tweezer-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/upside-tasuki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_configurationDetails.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_instrumentTable.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/_settings.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dashboard/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indices/_subscriptionList.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indices/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nsefando/_subscriptionList.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nsefando/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subscription/_subscriptionList.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subscription/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/handsontable.full.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/handsontable.full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/handsontable.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/global/vendor/handsontable.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navigation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/_dataList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/_dataList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/_filter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/_filter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/num/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/_dataList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/_dataList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/_filter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/_filter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pnd/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/_dataList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/_dataList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/_filter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/_filter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vbo/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/application/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/application/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/application/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/application/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/application/kite-common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/application/websocket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/dataTables.fixedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/dataTables.fixedHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/fixedHeader.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/global/vendor/datatables/fixedHeader.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/global/vendor/fusioncharts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Black-Marubozu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Marubozu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Piercing-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Three-Outside-Up-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/banner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bear-head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bearish-engulfing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bearish-harami.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bull-head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bullish-engulfing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bullish-harami-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/captain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-037.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-047.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-050.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-062.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-081.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-083.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-085.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-087.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-091.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-095.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-099.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-103.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-108.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-116.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-120.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-122.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-124.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-126.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-130.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-132.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-134.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-136.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-140.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-144.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-146.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-148.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-154.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-156.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-162.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-164.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-168.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-172.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-176.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-178.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-189.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-191.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-198.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-203.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-205.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-207.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-217.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-219.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-221.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-227.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-229.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-231.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-233.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-236.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-238.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-240.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-242.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-244.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-248.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-258.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-260.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-262.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-264.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-266.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-270.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-274.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-278.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-282.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-284.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-286.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-288.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-290.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-295.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-297.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-299.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-301.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-303.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-308.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-310.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-314.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-316.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-325.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-331.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-336.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-338.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-344.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-347.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-349.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-353.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-357.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-359.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-361.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-364.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-371.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-375.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-383.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-385.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-387.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-390.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-394.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-398.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-402.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-407.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-410.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-412.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-414.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-418.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-426.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-433.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-437.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-439.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-442.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-444.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-446.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-451.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-454.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-457.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-459.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-461.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-463.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-467.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-469.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-471.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-473.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-481.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-485.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-489.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-493.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-499.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-501.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-506.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-517.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-519.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-528.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-538.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-546.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-555.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-562.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/charts/image-566.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dark-cloud-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/doctor_strange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/doji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/downside-tasuki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/eng-1024x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/evening-star-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/evening-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hammer-candlestick-pattern-nifty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hammer-candlestick-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hanging-man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hulk.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hulk1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/inverted-Hammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ironman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/loki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mat-hold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/morning-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/on-neck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/png_bull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/rising-three.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/rsi-morning-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shooting-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/spinning-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/sun-pharmaceutical-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/thor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-black-crows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-falling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-inside-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-inside-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-outside-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/three-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tvc_f4f91f3e1468bf5efa1d263b51f299a7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tvc_fb61d6455d7717ca2ba0d2bfa8f60ef6-1024x553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tweezer-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/tweezer-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/upside-tasuki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tradebot/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/annotations/TrackExecutionTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/SchedulerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/WebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/DashboardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/KiteConnectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tradebot/controller/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/KiteInstruments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/MasterStockToTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/NseStockStrikeIntervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/SubscriptionTokens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/KiteInstrumentsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/MasterStockToTrackRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/NseStockStrikeIntervalsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/SubscriptionTokensRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/KiteInstrumentsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/MasterStockToTrackService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/NseStockStrikeIntervalsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/SubscriptionTokensService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/CommonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/RestHttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/TelegramSendText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/TradeUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/WebDriverUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/ZerodhaUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/handsontable.full.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/handsontable.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/config/SpringSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/NumDashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/PndDashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/controller/ViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/CustomConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectDocumentdatum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectDocumentnummer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectGeconstateerd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectHuisletter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectHuisnummer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectLigtAan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectPostcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectTypeAdresseerbaarObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/num/NumBagObjectVoorkomen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectDocumentdatum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectDocumentnummer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectGeconstateerd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectGeometrie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectOorspronkelijkBouwjaar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/domain/pnd/PndBagObjectVoorkomen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/CustomConfigurationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectDocumentdatumRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectDocumentnummerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectGeconstateerdRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectHuisletterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectHuisnummerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectLigtAanRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectPostcodeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectStatusRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectTypeAdresseerbaarObjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/num/NumBagObjectVoorkomenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectDocumentdatumRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectDocumentnummerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectGeconstateerdRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectGeometrieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectOorspronkelijkBouwjaarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectStatusRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/repository/pnd/PndBagObjectVoorkomenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/CustomConfigurationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectDocumentdatumService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectDocumentnummerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectGeconstateerdService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectHuisletterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectHuisnummerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectLigtAanService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectPostcodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectStatusService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectTypeAdresseerbaarObjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/num/NumBagObjectVoorkomenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectDocumentdatumService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectDocumentnummerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectGeconstateerdService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectGeometrieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectOorspronkelijkBouwjaarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectStatusService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/service/pnd/PndBagObjectVoorkomenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tradebot/utils/BeanUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -846,29 +239,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/tradebot/domain/vbo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\domain\vbo" />
-      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\service\num" />
-      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\repository\num" />
-      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\domain\num" />
-      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\webapp\WEB-INF\views" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tradebot.service.num" />
-      <recent name="tradebot.repository.num" />
-      <recent name="tradebot.controller" />
-      <recent name="tradebot.domain.num" />
-      <recent name="tradebot.service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\resources\static\global\vendor" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\resources\static\global\vendor\dropzone-4.3.0" />
       <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\security" />
-      <recent name="C:\Users\manju\Projects\AutoBot\src\main\webapp\WEB-INF\views\subscription" />
-      <recent name="C:\Users\manju\Projects\AutoBot\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\manju\Projects\Trade-Bot-Ai\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="license.service.post" />
+      <recent name="license.repository.post" />
+      <recent name="license.domain.post" />
+      <recent name="license.controller" />
+      <recent name="tradebot.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\webapp\WEB-INF\views\post" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\service\vbo" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\repository\vbo" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\domain\vbo" />
+      <recent name="C:\Users\manju\Projects\Sibian\LicensePlate\src\main\java\tradebot\service\num" />
     </key>
   </component>
   <component name="RunManager">
@@ -1666,7 +1059,12 @@
       <workItem from="1760329632259" duration="1853000" />
       <workItem from="1760637436909" duration="45000" />
       <workItem from="1764829574976" duration="15742000" />
-      <workItem from="1764912866000" duration="11027000" />
+      <workItem from="1764912866000" duration="17737000" />
+      <workItem from="1764943629800" duration="1326000" />
+      <workItem from="1764951388383" duration="2727000" />
+      <workItem from="1765035444210" duration="640000" />
+      <workItem from="1765092448961" duration="8946000" />
+      <workItem from="1765107737741" duration="5251000" />
     </task>
     <servers />
   </component>
@@ -1801,33 +1199,38 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1764915009890">
+    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1765098591785">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764915009890" />
+    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764954236949" />
+    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1765098591785" />
     <state x="178" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1764845378799">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="178" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764845378799" />
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1764924053380">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1765118757242">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053380" />
-    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1764847463526" />
-    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1764924053379">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764954266245" />
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1765118757242" />
+    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1765118757241">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053379" />
-    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1764847463525" />
-    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1764924053378">
+    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764954266245" />
+    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1765118757241" />
+    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1765118757238">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053378" />
-    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1764847463524" />
-    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1764924053379">
+    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764954266243" />
+    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1765118757238" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1765118757242">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764924053379" />
-    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1764847463525" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1764954266245" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1765118757242" />
+    <state x="477" y="143" width="581" height="530" key="find.popup" timestamp="1765101285713">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="477" y="143" width="581" height="530" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1765101285713" />
   </component>
 </project>

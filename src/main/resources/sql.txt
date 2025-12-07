@@ -89,3 +89,71 @@ WHERE
         AND A.ID = K.BAG_OBJECT
 
 ;
+
+SELECT
+    A.ID AS ID,
+    A.FILE AS FILE,
+    A.FOLDER AS FOLDER,
+    A.IDENTIFICATIE AS IDENTIFICATIE,
+    B.postcode AS postcode,
+    C.GECONSTATEERD AS GECONSTATEERD,
+    D.DOCUMENTDATUM AS DOCUMENTDATUM,
+    E.DOCUMENTNUMMER AS DOCUMENTNUMMER,
+    F.huisnummer AS huisnummer,
+    G.STATUS AS STATUS,
+    H.BEGIN_GELDIGHEID AS BEGIN_GELDIGHEID,
+    H.eind_geldigheid AS eind_geldigheid,
+    H.eind_registratie AS eind_registratie,
+    H.tijdstip_eind_registratielv AS tijdstip_eind_registratielv,
+    H.tijdstip_registratie AS tijdstip_registratie,
+    H.tijdstip_registratielv AS tijdstip_registratielv,
+    H.voorkomenidentificatie AS voorkomenidentificatie,
+    I.type_adresseerbaar_object AS type_adresseerbaar_object,
+    J.huisletter AS huisletter,
+    K.ligt_aan
+FROM
+    NUM_BAG_OBJECT A
+    LEFT JOIN  num_bag_object_postcode B ON A.ID = B.BAG_OBJECT
+    LEFT JOIN NUM_BAG_OBJECT_GECONSTATEERD C ON A.ID = C.BAG_OBJECT
+    LEFT JOIN NUM_BAG_OBJECT_DOCUMENTDATUM D ON A.ID = D.BAG_OBJECT
+    LEFT JOIN NUM_BAG_OBJECT_DOCUMENTNUMMER E ON A.ID = E.BAG_OBJECT
+    LEFT JOIN NUM_bag_object_huisnummer F ON A.ID = F.BAG_OBJECT
+    LEFT JOIN NUM_BAG_OBJECT_STATUS G ON A.ID = G.BAG_OBJECT
+    LEFT JOIN NUM_BAG_OBJECT_VOORKOMEN H ON A.ID = H.BAG_OBJECT
+    LEFT JOIN num_bag_object_type_adresseerbaar_object I ON A.ID = I.BAG_OBJECT
+    LEFT JOIN num_bag_object_huisletter J ON A.ID = J.BAG_OBJECT
+    LEFT JOIN num_bag_object_ligt_aan K ON A.ID = K.BAG_OBJECT
+
+    SELECT
+        A.ID AS ID,
+        A.FILE AS FILE,
+        A.FOLDER AS FOLDER,
+        A.IDENTIFICATIE AS IDENTIFICATIE,
+        B.gebruiksdoel AS gebruiksdoel,
+        C.GECONSTATEERD AS GECONSTATEERD,
+        D.DOCUMENTDATUM AS DOCUMENTDATUM,
+        E.DOCUMENTNUMMER AS DOCUMENTNUMMER,
+        F.post_list AS post_list,
+        G.STATUS AS STATUS,
+        H.BEGIN_GELDIGHEID AS BEGIN_GELDIGHEID,
+        H.eind_geldigheid AS eind_geldigheid,
+        H.eind_registratie AS eind_registratie,
+        H.tijdstip_eind_registratielv AS tijdstip_eind_registratielv,
+        H.tijdstip_registratie AS tijdstip_registratie,
+        H.tijdstip_registratielv AS tijdstip_registratielv,
+        H.voorkomenidentificatie AS voorkomenidentificatie,
+        I.nummeraanduiding_ref AS nummeraanduiding_ref,
+        J.pand_ref AS pand_ref,
+        K.oppervlakte  AS oppervlakte
+    FROM
+        NUM_BAG_OBJECT A
+        LEFT JOIN  vbo_bag_object_gebruiksdoel B ON A.ID = B.BAG_OBJECT
+        LEFT JOIN NUM_BAG_OBJECT_GECONSTATEERD C ON A.ID = C.BAG_OBJECT
+        LEFT JOIN NUM_BAG_OBJECT_DOCUMENTDATUM D ON A.ID = D.BAG_OBJECT
+        LEFT JOIN NUM_BAG_OBJECT_DOCUMENTNUMMER E ON A.ID = E.BAG_OBJECT
+        LEFT JOIN vbo_bag_object_geometrie F ON A.ID = F.BAG_OBJECT
+        LEFT JOIN NUM_BAG_OBJECT_STATUS G ON A.ID = G.BAG_OBJECT
+        LEFT JOIN NUM_BAG_OBJECT_VOORKOMEN H ON A.ID = H.BAG_OBJECT
+        LEFT JOIN vbo_bag_object_heeft_als_hoofdadres I ON A.ID = I.BAG_OBJECT
+        LEFT JOIN vbo_bag_object_maakt_deel_uit_van J ON A.ID = J.BAG_OBJECT
+        LEFT JOIN vbo_bag_object_oppervlakte K ON A.ID = K.BAG_OBJECT
